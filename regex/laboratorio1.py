@@ -28,7 +28,7 @@ for line in sys.stdin:
             print(match)
     else:
         print("Nessun match trovato")
-#ESERCIZIO: PAROLA CHE TERMINA CON UN SEGNO DI PUNTEGGIATURA
+#ESERCIZIO: PAROLE CHE TERMINA CON UN SEGNO DI PUNTEGGIATURA
 for line in sys.stdin:
     listamatch = re.findall(r"\w+[,.;?!]\s", line)
     print(listamatch)
